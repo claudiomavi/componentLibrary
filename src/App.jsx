@@ -1,7 +1,14 @@
+import Badge from './Components/Badge/Badge'
+import './index.css'
+
 export default function App() {
 	return (
 		<>
-			<p>Edit</p>
+			<Badge
+				round=""
+				color="green">
+				Badge
+			</Badge>
 		</>
 	)
 }
