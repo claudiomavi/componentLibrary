@@ -6,6 +6,7 @@ import { IoInformationCircle } from 'react-icons/io5'
 import classNames from 'classnames'
 
 // State = success, warning, error, or empty string for information
+// Banner > Banner.Header + Banner.Body
 
 export default function Banner({ children, state }) {
 	const stateClass = state ? `banner-${state}` : null
