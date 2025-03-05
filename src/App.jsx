@@ -1,14 +1,7 @@
-import Badge from './Components/Badge/Badge'
 import './index.css'
+// import Badge from './Components/Badge/Badge'
+import Banner from './Components/Banner/index'
 
 export default function App() {
-	return (
-		<>
-			<Badge
-				round=""
-				color="green">
-				Badge
-			</Badge>
-		</>
-	)
+	return <></>
 }
