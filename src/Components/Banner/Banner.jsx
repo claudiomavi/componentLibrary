@@ -15,6 +15,7 @@ export default function Banner({ children, state }) {
 		warning: <IoWarning />,
 		success: <IoCheckmarkCircle />,
 		error: <IoCloseCircle />,
+		undefined: <IoInformationCircle />,
 		'': <IoInformationCircle />,
 	}
 
